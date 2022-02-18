@@ -1,0 +1,63 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "Jose",
+        "label": "First Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "minLength",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "Barajas",
+        "label": "Last Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "jose.barajas@email.com",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "email"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteSong",
+        "label": "Favorite Song",
+        "value": "",
+        "options": [
+            { "id": "1", "label": "Yesterday"},
+            { "id": "2", "label": "Hey Jude"},
+            { "id": "3", "label": "Let It Be"},
+            { "id": "4", "label": "Dig It"}
+        ],
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    }
+
+]
